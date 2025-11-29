@@ -62,7 +62,7 @@ A sophisticated multi-agent trip planning system powered by Google Gemini and La
 1. **Clone the repository:**
    ```bash
    git clone <repository-url>
-   cd agent
+   cd Trip_Planner_Agent
    ```
 
 2. **Create a virtual environment:**
@@ -148,7 +148,7 @@ curl -X POST http://localhost:8000/api/chat \
 
 ### Project Structure
 ```
-agent/
+Trip_Planner_Agent/
 ├── app/
 │   ├── agents/           # Agent implementations
 │   │   ├── base.py       # Core data classes
